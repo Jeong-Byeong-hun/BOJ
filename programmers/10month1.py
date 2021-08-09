@@ -21,7 +21,7 @@ def convert(n):
     else:
         return convert(q) + Text[r]
 
-a = convert(45);
+a = convert(45)
 
 answer = 0
 for i in range(len(a)):
